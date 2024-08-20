@@ -52,7 +52,7 @@ author:
 #-------------------------------
 # Projects Settings
 projects_settings:
-  enable: true
+  enable: false
   projects_title: Portfolio
   projects_description:
 
@@ -60,7 +60,7 @@ projects_settings:
 #-------------------------------
 # Testimonials Settings
 testimonials:
-  enable: true
+  enable: false
   testimonials_title: Testimonials
   testimonials_description:
 
@@ -92,7 +92,7 @@ blog_settings:
 #-------------------------------
 # Videos Settings
 videos_settings:
-  enable: true
+  enable: false
   videos_title: Videos
   videos_description:
 
@@ -100,7 +100,7 @@ videos_settings:
 #-------------------------------
 # Gallery Section
 gallery_settings:
-  enable: true
+  enable: false
   gallery_title: Gallery
   gallery_description:
 
@@ -108,7 +108,7 @@ gallery_settings:
 #-------------------------------
 # Newsletter Settings
 mailchimp_settings:
-  enable: true
+  enable: false
   mailchimp_identifier: gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
   mailchimp_title: Get interesting news
   mailchimp_description: Subscribe to our newsletter and we’ll send you the emails of latest posts.
@@ -118,17 +118,17 @@ mailchimp_settings:
 
 #-------------------------------
 # Social Icons Settings
-social:
-- {icon: "fa-brands fa-facebook", name: "Facebook", link: "https://facebook.com"}
-- {icon: "fa-brands fa-x-twitter", name: "Twitter", link: "https://twitter.com"}
-- {icon: "fa-brands fa-github", name: "Github", link: "https://github.com"}
-- {icon: "fa-brands fa-instagram", name: "Instagram", link: "https://instagram.com"}
-- {icon: "fa-brands fa-tiktok", name: "Tiktok", link: "https://tiktok.com"}
-- {icon: "fa-brands fa-youtube", name: "Youtube", link: "https://youtube.com"}
-- {icon: "fa-brands fa-pinterest", name: "Pinterest", link: "https://pinterest.com"}
-- {icon: "fa-brands fa-dribbble", name: "Dribbble", link: "https://dribbble.com"}
-- {icon: "fa-brands fa-microsoft", name: "Microsoft", link: "https://microsoft.com"}
-- {icon: "fa-brands fa-vimeo-v", name: "Vimeo", link: "https://vimeo.com"}
+# social:
+# - {icon: "fa-brands fa-facebook", name: "Facebook", link: "https://facebook.com"}
+# - {icon: "fa-brands fa-x-twitter", name: "Twitter", link: "https://twitter.com"}
+# - {icon: "fa-brands fa-github", name: "Github", link: "https://github.com"}
+# - {icon: "fa-brands fa-instagram", name: "Instagram", link: "https://instagram.com"}
+# - {icon: "fa-brands fa-tiktok", name: "Tiktok", link: "https://tiktok.com"}
+# - {icon: "fa-brands fa-youtube", name: "Youtube", link: "https://youtube.com"}
+# - {icon: "fa-brands fa-pinterest", name: "Pinterest", link: "https://pinterest.com"}
+# - {icon: "fa-brands fa-dribbble", name: "Dribbble", link: "https://dribbble.com"}
+# - {icon: "fa-brands fa-microsoft", name: "Microsoft", link: "https://microsoft.com"}
+# - {icon: "fa-brands fa-vimeo-v", name: "Vimeo", link: "https://vimeo.com"}
 
 # Example of adding a new link to the footer - {icon: "fa-brands fa-dribbble", name: "Dribbble" link: "https://dribbble.com"}
 # Other icons can be found at https://fontawesome.com/search?o=r&m=free
