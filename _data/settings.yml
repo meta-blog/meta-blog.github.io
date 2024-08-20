@@ -85,7 +85,7 @@ testimonial_items:
 # Blog Section
 blog_settings:
   enable: true
-  blog_title: Writing
+  blog_title: Latest Articles
   blog_description:
 
 
