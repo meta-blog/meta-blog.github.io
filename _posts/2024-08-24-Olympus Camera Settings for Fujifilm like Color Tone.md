@@ -7,9 +7,6 @@ image: /images/02.jpg
 tags: [photography]
 ---
 
-
-# Olympus Camera Settings for Fujifilm-like Color Tone
-
 To achieve a color tone similar to Fujifilm's distinctive film simulations on an Olympus camera, you can try the following settings:
 
 ## 1. Picture Mode
