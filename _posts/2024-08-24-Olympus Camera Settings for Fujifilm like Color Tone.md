@@ -3,7 +3,7 @@ layouts: post
 title: Olympus Camera Settings for Fujifilm like Color Tone
 description: Tips for achieving Fujifilm's color look on Olympus cameras that use micro four-thirds sensors with small, lightweight settings.
 date: 2024-08-24 15:51:21 -05:00
-image: /images/02.jpg
+image: https://filedn.com/lxYUyBYoJ0PucMh95Q3054u/GitBlog/Main/img/Olympus%20Camera%20Settings%20for%20Fujifilm%20like%20Color%20Tone.webp
 tags: [photography]
 ---
 
