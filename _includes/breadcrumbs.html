@@ -8,8 +8,10 @@
         {% assign url_parts = url | split: '/' %}
         {% for element in url_parts %}
           {% capture path %}{{ path }}{{ element }}/{% endcapture %}
-          {% if element != '' %}
+          {% if element != '' and forloop.last == false %}
             » <a href='{{ path }}'>{{ element | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+          {% elsif element != '' and forloop.last %}
+            » {{ element | replace:'-',' ' | remove:'.html' | capitalize }}
           {% endif %}
         {% endfor %}
       </div>
