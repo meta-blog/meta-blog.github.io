@@ -138,7 +138,7 @@ mailchimp_settings:
 # Contact Settings
 contact:
   email: joaquinhong92@gmail.com # Add your form_id
-  description: Priam comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
+  description: 궁금한 점이나 요청 사항이 있으신가요? 아래 양식을 통해 언제든지 문의해 주세요. 저희 팀이 최대한 신속하게 답변해 드리겠습니다. 피드백과 제안도 언제나 환영합니다! 이름과 이메일 주소를 정확히 기입해 주세요. 문의 내용을 구체적으로 작성해 주시면 더 빠르고 정확한 답변이 가능합니다. 감사합니다.
 
 # NOTE
 # Priam theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
