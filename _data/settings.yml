@@ -41,9 +41,9 @@ menu_settings:
 #-------------------------------
 # Author Settings
 author:
-  author_name: Philip Hwang
-  author_role: Manager
-  author_bio: 👨🏻‍💻 I'm a web designer who strives for cleanliness and simplicity. 📷 I'm also studying photography, capturing everyday life in various places. And 🤖 I'm trying not to get swallowed up by AI. 
+  author_name: 필립 황
+  author_role: 포토그래퍼
+  author_bio: 👨🏻‍💻 저는 깔끔함과 단순함을 추구하는 웹 디자이너입니다. 📷 또한 사진학을 공부하고 있으며, 다양한 장소에서 일상 생활을 촬영하고 있습니다. 그리고 🤖 인공지능에 휩쓸리지 않으려고 노력 중입니다.
   author_avatar: '/images/Philip Hwang.jpeg'
   cta_button_text: Get In Touch
   cta_button_link: '/contact/'
