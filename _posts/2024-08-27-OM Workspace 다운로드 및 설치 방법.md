@@ -10,7 +10,7 @@ tags:
 ---
 
 ## **OM Workspace란?**
-
+![](https://filedn.com/lxYUyBYoJ0PucMh95Q3054u/GitBlog/Meta-page/Post/OM%20Workspace%20%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20%EB%B0%8F%20%EC%84%A4%EC%B9%98%20%EB%B0%A9%EB%B2%95/OM%20Workspace%E1%84%85%E1%85%A1%E1%86%AB%3F.webp)
 OM Workspace는 OM SYSTEM 카메라의 RAW 이미지 파일을 전문적으로 편집하기 위한 전용 소프트웨어입니다. 이 소프트웨어는 사진 작가와 이미지 편집 전문가들이 카메라에서 촬영한 RAW 데이터를 효율적으로 관리하고, 고품질의 이미지로 변환하며, 다양한 편집 기능을 통해 원하는 결과물을 얻을 수 있도록 설계되었습니다. OM Workspace는 특히 OM SYSTEM의 카메라와 긴밀하게 통합되어 있어, 사용자들은 촬영한 이미지를 최대한 활용할 수 있습니다.
 
 ### **주요 기능:**
