@@ -32,7 +32,7 @@ OM Workspace는 다양한 카메라 프로파일을 지원하여, 각 카메라 
 
 ### **OM Workspace 설치 가이드:**
 
-1. **설치 프로그램 다운로드**: OM SYSTEM의 공식 웹사이트에서 OM Workspace의 최신 버전을 다운로드합니다.
+1. **설치 프로그램 다운로드**: OM SYSTEM의 공식 웹사이트에서 [OM Workspace의 최신 버전을 다운로드](https://latest-version.download/app/om-workspace/)합니다.
 2. **설치 프로그램 실행**: 다운로드한 설치 파일을 열고, 화면에 나타나는 지침에 따라 설치를 진행합니다.
 3. **라이선스 동의**: 사용 약관을 읽고 동의한 후 설치를 계속 진행합니다.
 4. **설치 위치 선택**: OM Workspace를 설치할 디렉토리를 선택합니다.
