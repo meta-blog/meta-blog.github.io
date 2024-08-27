@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col col-12">
-        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/' | relative_url }}">홈</a>
         {% assign url_parts = url | split: '/' %}
         {% for element in url_parts %}
           {% capture path %}{{ path }}{{ element }}/{% endcapture %}
