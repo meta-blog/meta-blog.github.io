@@ -85,7 +85,7 @@ testimonial_items:
 # Blog Section
 blog_settings:
   enable: true
-  blog_title: Latest Articles
+  blog_title: 최근 글
   blog_description:
 
 
@@ -101,7 +101,7 @@ videos_settings:
 # Gallery Section
 gallery_settings:
   enable: false
-  gallery_title: Gallery
+  gallery_title: 갤러리
   gallery_description:
 
 
