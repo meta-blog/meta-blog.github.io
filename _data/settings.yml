@@ -32,6 +32,8 @@ menu_settings:
 #      url: '/about/'
 #    - title: '📷 Gallery'
 #      url: '/gallery/'
+    - title: '🏞️ 사진 편집'
+      url: '/tags/#사진+편집'
     - title: '✍️ 최근 게시글'
       url: '/blog/'
 #    - title: '📔 Elements'
