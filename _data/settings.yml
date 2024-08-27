@@ -43,7 +43,7 @@ menu_settings:
 author:
   author_name: 필립 황
   author_role: 사업가
-  author_bio: 👨🏻‍💻 저는 깔끔함과 단순함을 추구하는 웹 디자이너입니다. 📷 또한 사진학을 공부하고 있으며, 다양한 장소에서 일상 생활을 촬영하고 있습니다. 그리고 🤖 인공지능에 휩쓸리지 않으려고 노력 중입니다.
+  author_bio: 👨🏻‍💻 저는 깔끔함과 단순하지만 유용함을 추구하는 웹 개발을 공부합니다. 📷 또한 사진학을 공부하고 있으며, 다양한 장소에서 일상 생활을 촬영하고 있습니다. 그리고 🤖 인공지능에 휩쓸리지 않으려고 노력 중입니다.
   author_avatar: '/images/Philip Hwang.jpeg'
   cta_button_text: 문의하기
   cta_button_link: '/contact/'
