@@ -5,7 +5,8 @@ description: 올림푸스 및 OM SYSTEM 카메라 사용자를 위한 OM Workspa
 date: 2024-08-27 14:36:59 -05:00
 image: 
 tags:
-  - OM-Workspace
+- 사진 편집
+- OM Workspace
 ---
 
 ## **OM Workspace란?**
