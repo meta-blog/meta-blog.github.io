@@ -3,7 +3,7 @@ layouts: post
 title: OM Workspace 다운로드 및 설치 방법
 description: 올림푸스 및 OM SYSTEM 카메라 사용자를 위한 OM Workspace 튜토리얼을 시작하기 전에 이 프로그램을 다운로드하고 설치하는 방법을 알아봅시다.
 date: 2024-08-27 14:36:59 -05:00
-image: 
+image: https://filedn.com/lxYUyBYoJ0PucMh95Q3054u/GitBlog/Meta-page/Post/OM%20Workspace%20%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20%EB%B0%8F%20%EC%84%A4%EC%B9%98%20%EB%B0%A9%EB%B2%95/OM%20Workspace%20%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%87%E1%85%A1%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8.webp 
 tags:
 - 사진 편집
 - OM Workspace
