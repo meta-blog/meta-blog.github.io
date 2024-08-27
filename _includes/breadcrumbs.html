@@ -10,10 +10,12 @@
           {% capture path %}{{ path }}{{ element }}/{% endcapture %}
           {% if element != '' and forloop.last == false %}
             » <a href='{{ path }}'>{{ element | replace:'-',' ' | remove:'.html' | capitalize }}</a>
-          {% elsif element != '' and forloop.last %}
-            » {{ element | replace:'-',' ' | remove:'.html' | capitalize }}
           {% endif %}
         {% endfor %}
+        {% if page.tags.size > 0 %}
+          {% assign first_tag = page.tags[0] %}
+          » <a href="{{ '/tags/' | append: first_tag | relative_url }}">{{ first_tag | capitalize }}</a>
+        {% endif %}
       </div>
     </div>
   </div>
