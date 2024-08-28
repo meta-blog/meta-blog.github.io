@@ -15,7 +15,7 @@
 
     <div class="grid animate">
       {% if site.posts.size > 0 %}
-        {% for post in site.posts offset:0 limit:3 %}
+        {% for post in site.posts offset:0 limit:8 %}
         <div class="article-small grid__post">
 
           {% if post.image %}
@@ -38,20 +38,24 @@
               </div>
               &nbsp;&bull;&nbsp;
               {% endif %}
-              <time class="article-small__date" datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}{{ post.date | date: date_format }}</time>
-              {% assign words = post.content | number_of_words %}
-              {% if words >= 1 %}
-                &nbsp;&bull;&nbsp;
-                <span class="article-small__minutes">
-                  {% assign words = post.content | number_of_words %}
-                  {% if words < 360 %}
-                    1 min read
-                  {% else %}
-                    {{ words | divided_by:180 }} min read
-                  {% endif %}
-                </span>
-              {% endif %}
-            </div>
+<time class="article-small__date" datetime="{{ post.date | date_to_xmlschema }}">
+    {% assign date_format = "%Y년 %m월 %d일" %}
+    {{ post.date | date: date_format }}
+</time>
+{% assign words = post.content | number_of_words %}
+{% if words >= 1 %}
+    &nbsp;&bull;&nbsp;
+    <span class="article-small__minutes">
+        {% assign words = post.content | number_of_words %}
+        {% assign minutes = words | divided_by:180 %}
+        {% if minutes < 1 %}
+            1분 소요
+        {% else %}
+            {{ minutes }}분 소요
+        {% endif %}
+    </span>
+{% endif %}
+
 
             <p class="article-small__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html }}{% endif %}</p>
           </div>
