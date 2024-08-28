@@ -30,13 +30,8 @@ layout: default
       </span>
       {% endif %}
     </div>
-    {% if page.description %}
-      <p class="post-description">{{ page.description }}</p>
-    {% endif %}
-  </div>
 
-
-  {% if page.video_embed %}
+      {% if page.video_embed %}
   <div class="post-video">
     <div class="post-video__wrap">
       <iframe src="{{ page.video_embed }}" loading="lazy" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -50,6 +45,11 @@ layout: default
     <img class="lazy" data-src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.title }}">
   </div>
   {% endif %}
+
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </div>
 
   {% endif %}
 
