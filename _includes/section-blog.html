@@ -39,7 +39,7 @@
               &nbsp;&bull;&nbsp;
               {% endif %}
 <time class="article-small__date" datetime="{{ post.date | date_to_xmlschema }}">
-    {% assign date_format = "%Y년 %m월 %d일" %}
+    {% assign date_format = "%Y.%m.%d" %}
     {{ post.date | date: date_format }}
 </time>
 {% assign words = post.content | number_of_words %}
