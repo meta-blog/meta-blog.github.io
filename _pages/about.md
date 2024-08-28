@@ -1,25 +1,19 @@
 ---
 layout: page
 title: 👨🏻‍💻 About
-description: Dave Nixon is a highly skilled web designer with years of industry experience. His creative journey began with a fascination for blending art and technology, and he has since honed his skills to become a versatile designer who can transform ideas into captivating visual narratives.
+description: 어서오세요. 필립 황입니다. Meta Page에 오신 것을 환영합니다! Meta Page에서는 인공지능(AI), 소프트웨어, 하드웨어 등 다양한 IT 분야의 최신 정보를 제공하는 종합 IT 블로그입니다. 우리는 빠르게 변화하는 기술 환경에서 독자들이 최신 트렌드를 이해하고 활용할 수 있도록 돕기 위해 노력하고 있습니다.
 permalink: /about/
 image: '/images/01-2.jpg'
 page_cover: '/images/01.jpg'
 ---
-
-Dave believes that great design goes beyond aesthetics – it should tell a story, evoke emotions, and drive meaningful user interactions.
-
-Browse through Dave's portfolio to see his impressive body of work. From sleek corporate websites to vibrant e-commerce platforms and immersive landing pages, each project showcases Dave's ability to translate ideas into impactful visual experiences. Get inspired by his use of color palettes, typography, and innovative design elements that push the boundaries of creativity.
-
-<div class="page__gallery__wrapper">
-  <div class="page__gallery__images">
-    <img src="/images/01-3.jpg" loading="lazy">
-    <img src="/images/01-4.jpg" loading="lazy">
-    <img src="/images/01-5.jpg" loading="lazy">
-  </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
-</div>
-
-Ready to take your web design project to the next level? Contact Dave to discuss your requirements, explore design possibilities, and discover how his expertise can enhance your online presence. Dave is excited to collaborate with you and create visually stunning designs that make a lasting impact.
-
-Don't forget to connect with Dave on social media to stay updated on his latest projects, design insights, and industry trends. Follow him on Twitter, Instagram, and LinkedIn for a glimpse into his creative process and a dose of design inspiration.
+## 우리의 사명
+Meta Page의 사명은 복잡하고 방대한 IT 지식을 쉽고 명확하게 전달하는 것입니다. 초보자부터 전문가까지 모든 독자가 이해할 수 있는 콘텐츠를 제공하여, IT 분야에 대한 이해를 높이고 기술 발전에 기여하고자 합니다. 우리는 독자들이 자신의 기술적 역량을 향상시키고, 정보에 기반한 의사결정을 내릴 수 있도록 돕고 있습니다.
+## 우리가 다루는 주제
+- 인공지능(AI): 최신 AI 기술 동향, 연구, 개발 소식, 그리고 AI가 다양한 산업에서 어떻게 활용되는지에 대한 깊이 있는 분석을 제공합니다.
+- 소프트웨어: 최신 소프트웨어 리뷰, 사용 방법, 그리고 다양한 소프트웨어 개발 도구와 플랫폼에 대한 유용한 정보를 다룹니다.
+- 하드웨어: 컴퓨터, 스마트폰, IoT 기기 등 최신 하드웨어 리뷰와 비교 분석을 통해 독자들이 가장 적합한 제품을 선택할 수 있도록 지원합니다.
+- 기타 IT 주제: 사이버 보안, 클라우드 컴퓨팅, 네트워킹 등 다양한 IT 관련 주제를 포괄적으로 다루며, 독자들에게 유익한 정보를 제공합니다.
+## 우리의 비전
+Meta Page의 비전은 IT 지식과 통찰력을 공유하여 더 나은 디지털 세상을 만드는 것입니다. 우리는 독자들이 빠르게 변화하는 기술 트렌드를 따라잡고, 혁신을 주도하는 데 필요한 정보를 제공함으로써, 미래를 준비하는 데 기여하고자 합니다.
+## 함께하세요
+Meta Page와 함께 최신 IT 트렌드를 탐험하고, 기술적 통찰력을 키워보세요. 독자 여러분이 기술을 더 잘 이해하고 활용할 수 있도록, 우리는 계속해서 양질의 콘텐츠를 제공하겠습니다. Meta Page는 언제나 여러분의 IT 동반자가 될 것입니다.
