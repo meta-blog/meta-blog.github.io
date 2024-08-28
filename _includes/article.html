@@ -21,16 +21,16 @@
       </div>
       &nbsp;&bull;&nbsp;
       {% endif %}
-      <time class="article__date" datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}{{ post.date | date: date_format }}</time>
+      <time class="article__date" datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%Y.%-m.%-d" %}{{ post.date | date: date_format }}</time>
       {% assign words = post.content | number_of_words %}
       {% if words >= 1 %}
         &nbsp;&bull;&nbsp;
         <span class="article__minutes">
           {% assign words = post.content | number_of_words %}
           {% if words < 360 %}
-            1 min read
+            1분 소요
           {% else %}
-            {{ words | divided_by:180 }} min read
+            {{ words | divided_by:180 }}분 소요
           {% endif %}
         </span>
       {% endif %}
