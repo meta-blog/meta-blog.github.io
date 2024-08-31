@@ -2,7 +2,7 @@
 layout: page
 title: 👨🏻‍💻 About
 description: 어서오세요. 필립 황입니다. Meta Page에 오신 것을 환영합니다! Meta Page에서는 인공지능(AI), 소프트웨어, 하드웨어 등 다양한 IT 분야의 최신 정보를 제공하는 종합 IT 블로그입니다. 우리는 빠르게 변화하는 기술 환경에서 독자들이 최신 트렌드를 이해하고 활용할 수 있도록 돕기 위해 노력하고 있습니다.
-permalink: /about/
+permalink: /images/asset/about.webp
 image: ''
 page_cover: '/images/01.jpg'
 ---
