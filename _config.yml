@@ -34,6 +34,9 @@ collections:
   gallery:
     output: true
     permalink: /gallery/:slug
+  canon:
+    output: true
+    permalink: /canon/:slug
 
 # Pages Path
 defaults:
@@ -66,6 +69,11 @@ defaults:
       type: "gallery"
     values:
       layout: "gallery"
+  - scope: 
+      path: ""
+      type: "canon"
+    values:
+      layout: "canon"
 
 sass:
   sass_dir: _sass
