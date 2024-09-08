@@ -79,3 +79,11 @@ defaults:
 sass:
   sass_dir: _sass
   style: compressed
+
+
+# TOC
+toc:
+  autolink: true      # 자동으로 링크 생성
+  no_toc_section_class: "no_toc" # 특정 섹션을 제외할 경우 클래스 지정
+  min_level: 1        # 최소 제목 레벨 (h1)
+  max_level: 6        # 최대 제목 레벨 (h6)
