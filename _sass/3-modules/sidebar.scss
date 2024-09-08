@@ -1,0 +1,24 @@
+.toc-sidebar {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  width: 250px;
+}
+
+.toc-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.toc-sidebar li {
+  margin: 0 0 10px;
+}
+
+.toc-sidebar a {
+  text-decoration: none;
+  color: #007acc;
+}
+
+.toc-sidebar a:hover {
+  text-decoration: underline;
+}
