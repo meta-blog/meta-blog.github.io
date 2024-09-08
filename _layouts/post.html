@@ -7,31 +7,35 @@ layout: default
 
   <div class="post-head">
     <h1 class="post-title">{{ page.title | escape }}</h1>
-<div class="post-meta">
+    <div class="post-meta">
       {% if page.tags.size >= 1 %}
       <div class="post-tags">
-        게시 위치:&nbsp;
+        Publish in&nbsp;
         {% for tag in page.tags %}
         <a href="{{ site.baseurl }}/tags#{{ tag }}" class="post__tag">{{ tag }}</a>
         {% endfor %}
       </div>
       &nbsp;&bull;&nbsp;
       {% endif %}
-      <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%Y년 %-m월 %-d일" %}{{ page.date | date: date_format }}</time>
+      <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}{{ page.date | date: date_format }}</time>
       {% assign words = page.content | number_of_words %}
       {% if words >= 1 %}
       &nbsp;&bull;&nbsp;
       <span class="post-minutes">
       {% if words < 360 %}
-        1분 소요
+        1 min read
       {% else %}
-        {{ words | divided_by:180 }}분 소요
+        {{ words | divided_by:180 }} min read
       {% endif %}
       </span>
       {% endif %}
     </div>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </div>
 
-      {% if page.video_embed %}
+  {% if page.video_embed %}
   <div class="post-video">
     <div class="post-video__wrap">
       <iframe src="{{ page.video_embed }}" loading="lazy" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -46,19 +50,7 @@ layout: default
   </div>
   {% endif %}
 
-    {% if page.description %}
-      <p class="post-description">{{ page.description }}</p>
-    {% endif %}
-  </div>
-
   {% endif %}
-
-{% if page.toc %}
-  <h2>목차</h2>
-  {{ content | toc_only }}
-{% endif %}
-
-{{ content }}
 
   <div class="post__content">
     {{ content }}
