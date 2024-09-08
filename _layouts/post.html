@@ -53,9 +53,14 @@ layout: default
   {% endif %}
 
 
-  <div class="post__content">
-    {{ content }}
+<div class="post__content">
+  <!-- TOC -->
+  <div class="post-toc">
+    {{ content | toc }}
   </div>
+  
+  {{ content }}
+</div>
 
   {% include share-buttons.html %}
 
