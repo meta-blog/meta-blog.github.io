@@ -1,0 +1,17 @@
+<div class="toc">
+  <h2>목차</h2>
+  <ul>
+    {% assign headers = page.content | markdownify | split: '<h' %}
+    {% for header in headers %}
+      {% if forloop.first %}
+        {# Skip the first element because it's before the first heading #}
+        {% continue %}
+      {% endif %}
+      {% assign level = header | slice: 0, 1 %}
+      {% assign title = header | split: '</h' | first | remove: '>' %}
+      <li class="toc-level-{{ level }}">
+        <a href="#{{ title | slugify }}">{{ title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
